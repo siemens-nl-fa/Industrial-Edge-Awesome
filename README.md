@@ -4,6 +4,9 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 * [Links](#Links)
   * [Official links](#official-links)  
   * [Links](#links)
+* [Manuals](#manuals) 
+  * [Hardware#manuals-hardware]
+  * [Apps](#manuals-applications)
 
 ## Links
 Website links for information about Industrial Edge
@@ -19,3 +22,10 @@ Website links for information about Industrial Edge
 * [Code.siemens.com](https://code.siemens.com) - Code.siemens.com
 * [Code.siemens.com - Simatic system - Industrial Edge](https://code.siemens.com/simatic-systems-support/industrial-edge) -  Employee internal Git - Simatic system support 
 * [Code.siemens.com - Future of Automation NL - Edge](https://code.siemens.com/future-of-automation/edge) - Employee internal Git - FoA Netherlands 
+
+## Manuals
+Manuals for all the components
+
+### Manuals Hardware
+
+### Manuals Applications
