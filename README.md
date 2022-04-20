@@ -24,7 +24,8 @@ Weblinks
 
 ### Official Links
 * [Siemens - Simatic Industrial Edge](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html) - Siemens Industrial Edge Homepage
+* [Siemens - Siemens Industry Support](https://support.industry.siemens.com/cs/search?t=all&search=industrial%20edge&type=ProductSupport%2CCatalog%2CCertificate%2CDownload%2CFaq%2CManual%2CCharacteristic%2CProductNote%2CDownloadSoftwareArchive%2CExampleOfUse%2CSlk&lc=nl-NL) - Siemens Industrial Edge Support (Manuals and Downloads)
 
 ### Links
-* [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Siemens Industrial Edge Github
-* [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Italian Siemens Industrial Edge Github
+* [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Official Siemens Industrial Edge Github
+* [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Siemens Italy Industrial Edge Github
