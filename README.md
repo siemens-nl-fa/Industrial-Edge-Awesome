@@ -23,7 +23,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 Weblinks
 
 ### Official Links
-test
+* [Siemens](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html)
 
 ### Links
 test
