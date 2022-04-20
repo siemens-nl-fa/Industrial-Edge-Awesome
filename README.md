@@ -5,6 +5,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Official links](#official-links)  
   * [Links](#links)
 * [Manuals](#manuals) 
+  * [Getting Started](#manuals-getting-started)
   * [Hardware](#manuals-hardware)
   * [Apps](#manuals-applications)
 
@@ -26,6 +27,12 @@ Website links for information about Industrial Edge
 ## Manuals
 Manuals for all the components
 
+### Manuals Getting Started
+All the gettingstarted manuals
+
 ### Manuals Hardware
+All the hardware-related manuals
 
 ### Manuals Applications
+All the manuals about the applications
+
