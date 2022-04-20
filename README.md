@@ -4,9 +4,9 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 * [Section](#section)
   * [Subsection 1](#subsection-1)
   * [Subsection 2](#subsection-2)
-* [Links](#info)
+* [Links](#Links)
   * [Official links](#official-links)  
-  * [links](#links)
+  * [Links](#links)
 
 
 ## Section
@@ -22,7 +22,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 ## Links
 Weblinks
 
-### Official links
+### Official Links
 test
 
 ### Links
