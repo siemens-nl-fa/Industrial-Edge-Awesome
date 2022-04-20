@@ -16,5 +16,5 @@ Website links for information about Industrial Edge
 * [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Official Siemens Industrial Edge Github
 * [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Siemens Italy Industrial Edge Github
 * [Code.siemens.com](https://code.siemens.com) - Code.siemens.com
-* [Code.siemens.com - Simatic system - Industrial Edge](https://code.siemens.com/simatic-systems-support/industrial-edge) - Code.siemens.com Simatic system support - Industrial Edge - Siemens internal Gitlab
-* [Code.siemens.com - Future of Automation NL - Edge](https://code.siemens.com/future-of-automation/edge) - Code.siemens.com FoA Netherlands internal Gitlab
+* [Code.siemens.com - Simatic system - Industrial Edge](https://code.siemens.com/simatic-systems-support/industrial-edge) -  Employee internal Git - Simatic system support 
+* [Code.siemens.com - Future of Automation NL - Edge](https://code.siemens.com/future-of-automation/edge) - Employee internal Git - FoA Netherlands 
