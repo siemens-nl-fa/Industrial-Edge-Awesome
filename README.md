@@ -5,7 +5,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Official links](#official-links)  
   * [Links](#links)
 * [Manuals](#manuals) 
-  * [Hardware#manuals-hardware]
+  * [Hardware](#manuals-hardware)
   * [Apps](#manuals-applications)
 
 ## Links
