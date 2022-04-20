@@ -26,4 +26,5 @@ Weblinks
 * [Siemens - Simatic Industrial Edge](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html) - Siemens Industrial Edge Homepage
 
 ### Links
-test
+* [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Siemens Industrial Edge Github
+* [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Italian Siemens Industrial Edge Github
