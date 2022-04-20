@@ -5,7 +5,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Official links](#official-links)  
   * [Links](#links)
 * [Manuals](#manuals) 
-  * [Getting Started](#manuals-getting-started)
+  * [Getting Started](#manuals-guides)
   * [Hardware](#manuals-hardware)
   * [Apps](#manuals-applications)
 
@@ -27,12 +27,22 @@ Website links for information about Industrial Edge
 ## Manuals
 Manuals for all the components
 
-### Manuals Getting Started
+### Manuals Guides
 All the gettingstarted manuals
+* [App Developer Guide V1.2.1](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
+* [Industrial Edge Management - Getting Started](https://support.industry.siemens.com/cs/document/109779989/industrial-edge-management-getting-started)
+* [link](url)
 
 ### Manuals Hardware
 All the hardware-related manuals
+* [link](url)
+* [link](url)
+* [link](url)
 
 ### Manuals Applications
 All the manuals about the applications
+* [Dataservice](https://support.industry.siemens.com/cs/document/109781417/data-service-for-industrial-edge)
+* [Performance Insight](https://support.industry.siemens.com/cs/document/109781419/performance-insight-for-industrial-edge)
+* [link](url)
+* [link](url)
 
