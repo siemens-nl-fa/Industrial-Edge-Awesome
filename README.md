@@ -5,3 +5,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Package Managers](#package-managers)
   * [Component management](#component-management)
   * [Loaders](#loaders)
+
+## Package Managers
+
+## Component Management
