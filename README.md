@@ -50,29 +50,29 @@ Manuals for all the components
 * [Publisher](https://support.industry.siemens.com/cs/document/109778824/industrial-edge-publisher)
 
 ### Manuals Applications
-* Acquisition Apps (Bottom)
+* Data Acquisition Apps 
   * [Audio Connector](https://support.industry.siemens.com/cs/document/109805476/audio-connector-for-industrial-edge)
   * [SIMATIC S7 Connector](https://support.industry.siemens.com/cs/document/109807394/simatic-s7-connector-configurator-v1-6)
   * [Ethernet IP Connector](https://support.industry.siemens.com/cs/document/109792878/ethernet-ip-connector-and-configurator)
   * [Profinet IO](https://support.industry.siemens.com/cs/document/109793251/profinet-io-connector-v1-1)
-* Data Apps (Middle)
+* Data Transfer Apps
   * [Data Service](https://support.industry.siemens.com/cs/document/109781417/data-service-for-industrial-edge)
   * [Databus Configurator](https://support.industry.siemens.com/cs/document/109809929/industrial-edge-databus-configurator-v1-6)
-* Connection Apps (Top)
+* Connection Apps
   * [Google Cloud Connector](https://support.industry.siemens.com/cs/document/109809307/industrial-edge-google-cloud-connector-v0-0-3)
   * [MQTT Connector](https://support.industry.siemens.com/cs/document/109809930/industrial-edge-mqtt-connector-v1-6)
   * [Cloud Connector](https://support.industry.siemens.com/cs/document/109810240/industrial-edge-cloud-connector-v1-7)
   * [OPC UA Server Application](https://support.industry.siemens.com/cs/document/109809932/industrial-edge-opc-ua-server-application-v1-0-2)
   * [MindSphere Connector ](https://support.industry.siemens.com/cs/document/109810239/industrial-edge-mindsphere-connector-v1-2)
-* Other Apps (Top)
+* Dashboard Apps
   * [Performance Insight](https://support.industry.siemens.com/cs/document/109781419/performance-insight-for-industrial-edge)
-  * [Notifier](https://support.industry.siemens.com/cs/document/109781418/notifier-for-industrial-edge)
+  * [Energy Manager](https://support.industry.siemens.com/cs/document/109781420/energy-manager-for-industrial-edge)
+  * [Machine Monitor](https://support.industry.siemens.com/cs/document/109806775/machine-monitor-for-industrial-edge)
+* Other Apps
   * [Flow Creator](https://support.industry.siemens.com/cs/document/109809931/industrial-edge-flow-creator-v1-3-7)
   * [Anomaly Detection](https://support.industry.siemens.com/cs/document/109801959/anomaly-detection-for-industrial-edge)
-  * [Energy Manager](https://support.industry.siemens.com/cs/document/109781420/energy-manager-for-industrial-edge)
   * [Livetwin](https://support.industry.siemens.com/cs/document/109780275/edge-livetwin-edge-app)
   * [Speech Assistant for Machines](https://support.industry.siemens.com/cs/document/109791888/simatic-industrial-software-speech-assistant-for-machines)
-  * [Machine Monitor](https://support.industry.siemens.com/cs/document/109806775/machine-monitor-for-industrial-edge)
   * [Analyze myDrives](https://support.industry.siemens.com/cs/document/109809520/analyze-mydrives-edge)
   * [Inventory Application](https://support.industry.siemens.com/cs/document/109808805/inventory-application-v1-2-0)
   * [SIMATIC Automation Tool](https://support.industry.siemens.com/cs/document/109795199/simatic-automation-tool-online-help)
