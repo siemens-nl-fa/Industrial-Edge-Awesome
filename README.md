@@ -52,7 +52,7 @@ Manuals for all the components
 ### Manuals Applications
 * Acquisition Apps (Bottom)
   * [Audio Connector](https://support.industry.siemens.com/cs/document/109805476/audio-connector-for-industrial-edge)
-  * [SIMATIC S7 Connector Configurator](https://support.industry.siemens.com/cs/document/109807394/simatic-s7-connector-configurator-v1-6)
+  * [SIMATIC S7 Connector](https://support.industry.siemens.com/cs/document/109807394/simatic-s7-connector-configurator-v1-6)
   * [Ethernet IP Connector](https://support.industry.siemens.com/cs/document/109792878/ethernet-ip-connector-and-configurator)
   * [Profinet IO](https://support.industry.siemens.com/cs/document/109793251/profinet-io-connector-v1-1)
 * Data Apps (Middle)
@@ -60,7 +60,7 @@ Manuals for all the components
   * [Databus Configurator](https://support.industry.siemens.com/cs/document/109809929/industrial-edge-databus-configurator-v1-6)
 * Connection Apps (Top)
   * [Google Cloud Connector](https://support.industry.siemens.com/cs/document/109809307/industrial-edge-google-cloud-connector-v0-0-3)
-  * [MQTT Connector Configurator](https://support.industry.siemens.com/cs/document/109809930/industrial-edge-mqtt-connector-v1-6)
+  * [MQTT Connector](https://support.industry.siemens.com/cs/document/109809930/industrial-edge-mqtt-connector-v1-6)
   * [Cloud Connector](https://support.industry.siemens.com/cs/document/109810240/industrial-edge-cloud-connector-v1-7)
   * [OPC UA Server Application](https://support.industry.siemens.com/cs/document/109809932/industrial-edge-opc-ua-server-application-v1-0-2)
   * [MindSphere Connector ](https://support.industry.siemens.com/cs/document/109810239/industrial-edge-mindsphere-connector-v1-2)
