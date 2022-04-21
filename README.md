@@ -29,12 +29,24 @@ Manuals for all the components
 
 ### Manuals Guides
 All the gettingstarted manuals
-* [App Developer Guide V1.2.1](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
+* [App Developer Guide](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
 * [Industrial Edge Management - Getting Started](https://support.industry.siemens.com/cs/document/109779989/industrial-edge-management-getting-started)
+* [Industrial Information Hub (core) and Common Configurator](https://support.industry.siemens.com/cs/document/109803582/industrial-information-hub-(core)-and-common-configurator-for-industrial-edge)
+* [](url)
+* [link](url)
+* [link](url)
+* [link](url)
+* [link](url)
 * [link](url)
 
 ### Manuals Hardware
 All the hardware-related manuals
+* [Industrial Edge Management](https://support.industry.siemens.com/cs/document/109780393/industrial-edge-management-operation) - Operation
+* [Industrial Edge Device](https://support.industry.siemens.com/cs/document/109807688/industrial-edge-device-operation-v1-6)
+* [Security Overview](https://support.industry.siemens.com/cs/document/109807696/industrial-edge-security-overview-02-22)
+* [SIMATIC HMI Unified Comfort Panels Industrial Edge Device](https://support.industry.siemens.com/cs/document/109804671/simatic-hmi-unified-comfort-panels-industrial-edge-device-operation)
+* [link](url)
+* [link](url)
 * [link](url)
 * [link](url)
 * [link](url)
@@ -43,6 +55,14 @@ All the hardware-related manuals
 All the manuals about the applications
 * [Dataservice](https://support.industry.siemens.com/cs/document/109781417/data-service-for-industrial-edge)
 * [Performance Insight](https://support.industry.siemens.com/cs/document/109781419/performance-insight-for-industrial-edge)
+* [Databus Configurator](https://support.industry.siemens.com/cs/document/109809929/industrial-edge-databus-configurator-v1-6)
+* [OPC UA Server Application](https://support.industry.siemens.com/cs/document/109809932/industrial-edge-opc-ua-server-application-v1-0-2)
+* [MQTT Connector Configurator](https://support.industry.siemens.com/cs/document/109809930/industrial-edge-mqtt-connector-v1-6)
+* [Notifier](https://support.industry.siemens.com/cs/document/109781418/notifier-for-industrial-edge)
+* [Flow Creator](https://support.industry.siemens.com/cs/document/109809931/industrial-edge-flow-creator-v1-3-7)
+* [MindSphere Connector ](https://support.industry.siemens.com/cs/document/109810239/industrial-edge-mindsphere-connector-v1-2)
+* [link](url)
+* [link](url)
 * [link](url)
 * [link](url)
 
