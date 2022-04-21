@@ -28,7 +28,6 @@ Website links for information about Industrial Edge
 Manuals for all the components
 
 ### Manuals Guides
-All the gettingstarted manuals
 * [App Developer Guide](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
 * [Industrial Edge Management - Getting Started](https://support.industry.siemens.com/cs/document/109779989/industrial-edge-management-getting-started)
 * [Industrial Information Hub (core) and Common Configurator](https://support.industry.siemens.com/cs/document/109803582/industrial-information-hub-(core)-and-common-configurator-for-industrial-edge)
@@ -39,7 +38,6 @@ All the gettingstarted manuals
 * [SIMATIC Automation Tool Supported Device List](https://support.industry.siemens.com/cs/document/109801887/simatic-automation-tool-supported-device-list)
 
 ### Manuals Hardware
-All the hardware-related manuals
 * [Industrial Edge Management](https://support.industry.siemens.com/cs/document/109780393/industrial-edge-management-operation)
 * [Industrial Edge Device](https://support.industry.siemens.com/cs/document/109807688/industrial-edge-device-operation-v1-6)
 * [Security Overview](https://support.industry.siemens.com/cs/document/109807696/industrial-edge-security-overview-02-22)
@@ -50,7 +48,6 @@ All the hardware-related manuals
 * [Publisher](https://support.industry.siemens.com/cs/document/109778824/industrial-edge-publisher)
 
 ### Manuals Applications
-All the manuals about the applications
 * Acquisition Apps (Bottom)
   * [OPC UA Server Application](https://support.industry.siemens.com/cs/document/109809932/industrial-edge-opc-ua-server-application-v1-0-2)
   * [SIMATIC S7 Connector Configurator](https://support.industry.siemens.com/cs/document/109807394/simatic-s7-connector-configurator-v1-6)
