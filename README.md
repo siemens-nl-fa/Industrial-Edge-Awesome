@@ -9,6 +9,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Guides](#manuals-guides)
   * [Hardware](#manuals-hardware)
   * [App](#manuals-applications)
+  * [Edge at unified](#edge-at-unified)
 
 ## Links
 
@@ -49,6 +50,7 @@ Manuals for all the components
 * [Virtual Device](https://support.industry.siemens.com/cs/document/109809569/industrial-edge-virtual-device)
 * [Publisher](https://support.industry.siemens.com/cs/document/109778824/industrial-edge-publisher)
 
+
 ### Manuals Applications
 * Data Acquisition Apps 
   * [Audio Connector](https://support.industry.siemens.com/cs/document/109805476/audio-connector-for-industrial-edge)
@@ -77,3 +79,5 @@ Manuals for all the components
   * [Inventory Application](https://support.industry.siemens.com/cs/document/109808805/inventory-application-v1-2-0)
   * [SIMATIC Automation Tool](https://support.industry.siemens.com/cs/document/109795199/simatic-automation-tool-online-help)
 
+### Edge at Unified
+  * [Performance Insight for Unified Comfort Panel (beta-version for device managed UCP)](https://support.industry.siemens.com/cs/document/109780761/performance-insight-for-unified-comfort-panel-(beta-version-for-device-managed-ucp)?dti=0&lc=en-WW)
