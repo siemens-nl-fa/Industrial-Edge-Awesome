@@ -81,3 +81,4 @@ Manuals for all the components
 
 ### Edge at Unified
   * [Performance Insight for Unified Comfort Panel (beta-version for device managed UCP)](https://support.industry.siemens.com/cs/document/109780761/performance-insight-for-unified-comfort-panel-(beta-version-for-device-managed-ucp)?dti=0&lc=en-WW)
+  * [industrial-edge-applications-in-conjunction-with-the-unified-hmi](https://support.industry.siemens.com/cs/document/109778780/industrial-edge-applications-in-conjunction-with-the-simatic-hmi-unified-comfort-panel)
