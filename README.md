@@ -17,6 +17,10 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 * [Siemens - Simatic Industrial Edge](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html) - Homepage
 * [Siemens - Siemens Industry Support](https://support.industry.siemens.com/cs/search?t=all&search=industrial%20edge&type=ProductSupport%2CCatalog%2CCertificate%2CDownload%2CFaq%2CManual%2CCharacteristic%2CProductNote%2CDownloadSoftwareArchive%2CExampleOfUse%2CSlk&lc=nl-NL) - Industrial Edge Support (Manuals and Downloads)
 * [Dex - Siemens - Apps Marketplace](https://www.dex.siemens.com/?selected=edge) - Industrial Edge Marketplace
+* [Industrial edge documentation](https://docs.eu1.edge.siemens.cloud/) - official documentation website
+* [Industrial edge documentation developers](https://docs.eu1.edge.siemens.cloud/developer/index.html) - official documentation website
+* [Industrial edge documentation operators/admins](https://docs.eu1.edge.siemens.cloud/operator/index.html) - official documentation website
+* [Industrial edge documentation device builders](https://docs.eu1.edge.siemens.cloud/devicebuilder/index.html) - official documentation website
 
 ### Links
 * Github
