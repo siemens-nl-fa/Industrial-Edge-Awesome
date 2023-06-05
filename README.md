@@ -20,6 +20,18 @@ Redirection to different websites
 * [Overview - Edge Devices](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26135&lc=en-US)
 * [Overview - Edge Management](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26128&lc=en-US)
 
+### Marketplace
+* [Industrial Edge Hub Access](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access)
+* [Industrial Edge Device License](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
+* [ipc227e](https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device)
+
+
+```
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
+https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device
+```
+
 
 ## Manuals
 Manuals for all the components
