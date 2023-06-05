@@ -27,12 +27,12 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 Manuals for all the components
 
 ## Support
-* [Support - Edge Apps](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26131&lc=en-US)
-* [Support - Edge Devices](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26135&lc=en-US)
-* [Support - Edge Management](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26128&lc=en-US)
+* [Overview - Edge Apps](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26131&lc=en-US)
+* [Overview - Edge Devices](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26135&lc=en-US)
+* [Overview - Edge Management](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26128&lc=en-US)
 
 
-### Manuals Guides
+### Guides
 * [App Developer Guide](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
 * [Industrial Edge Management - Getting Started](https://support.industry.siemens.com/cs/document/109779989/industrial-edge-management-getting-started)
 * [Industrial Information Hub (core) and Common Configurator](https://support.industry.siemens.com/cs/document/109803582/industrial-information-hub-(core)-and-common-configurator-for-industrial-edge)
@@ -42,7 +42,7 @@ Manuals for all the components
 * [Getting Started with Speech Assistant for Machines](https://support.industry.siemens.com/cs/document/109798497/getting-started-with-speech-assistant-for-machines)
 * [SIMATIC Automation Tool Supported Device List](https://support.industry.siemens.com/cs/document/109801887/simatic-automation-tool-supported-device-list)
 
-### Manuals Hardware
+### Hardware
 * [Industrial Edge Management](https://support.industry.siemens.com/cs/document/109780393/industrial-edge-management-operation)
 * [Industrial Edge Device](https://support.industry.siemens.com/cs/document/109807688/industrial-edge-device-operation-v1-6)
 * [Security Overview](https://support.industry.siemens.com/cs/document/109807696/industrial-edge-security-overview-02-22)
@@ -53,7 +53,7 @@ Manuals for all the components
 * [Publisher](https://support.industry.siemens.com/cs/document/109778824/industrial-edge-publisher)
 
 
-### Manuals Applications
+### Applications
 * Data Acquisition Apps 
   * [Audio Connector](https://support.industry.siemens.com/cs/document/109805476/audio-connector-for-industrial-edge)
   * [SIMATIC S7 Connector](https://support.industry.siemens.com/cs/document/109807394/simatic-s7-connector-configurator-v1-6)
