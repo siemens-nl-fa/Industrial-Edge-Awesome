@@ -10,7 +10,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 * [Dex - Siemens - Apps Marketplace](https://www.dex.siemens.com/?selected=edge) - Industrial Edge Marketplace
 * [Industrial edge documentation](https://docs.eu1.edge.siemens.cloud/) - official documentation website
 
-### GITHUB
+### Github
   * [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Official Siemens Industrial Edge 
   * [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Siemens Italy Industrial Edge 
 
