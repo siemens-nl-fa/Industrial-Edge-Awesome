@@ -6,10 +6,14 @@ First Steps for setting up.
 
 ###### Components:
 
-1. **IEH - Industrial Edge HUB**Siemens Hosted Cloud environment for downloading bought apps.
-2. **IEM - Industrial Edge Management**Worldwide or plantbased setup to manage all the IED (Industrial Edge Devices)
-3. **IED - Industrial Edge Device**Device where the Apps are
-4. **IEAP - Industrial Edge App Publisher**Software where your own made apps can be uploaded to the IEM.
+1. **IEH - Industrial Edge HUB**
+   * Siemens Hosted Cloud environment for downloading bought apps.
+2. **IEM - Industrial Edge Management**
+   * Worldwide or plantbased setup to manage all the IED (Industrial Edge Devices)
+3. **IED - Industrial Edge Device**
+   * Device where the Apps are
+4. **IEAP - Industrial Edge App Publisher**
+   * Software where your own made apps can be uploaded to the IEM.
 
 # Contents
 
