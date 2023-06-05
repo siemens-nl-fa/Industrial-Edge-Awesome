@@ -1,5 +1,7 @@
 # Getting Started with Industrial Edge - Setup the Environment
 
+![](assets/20230605_155403_image.png)
+
 ###### Components:
 
 1. **IEH - Industrial Edge HUB**
@@ -77,7 +79,7 @@ Based on: [https://docs.eu1.edge.siemens.cloud Industrial Edge Hub](https://docs
 * Downloading the Industrial Management OS from IEH [link](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/setup/setting_up_the_iem/downloading_the_iem_os.html)
 * Creating an IEM Instance and downloading the configuration file [link](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/setup/setting_up_the_iem/creating_an_iem_instance_and_downloading_the_configuration_file.html)
 
-###### IEM 
+###### IEM
 
 * Follow [https://docs.eu1.edge.siemens.cloud Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) or [support.industry.siemens.com Industrial Edge Management Gettin Started](https://support.industry.siemens.com/cs/document/109814452/industrial-edge-management-getting-started-10-22?dti=0&lc=en-US)
 
