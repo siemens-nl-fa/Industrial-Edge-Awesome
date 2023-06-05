@@ -1,4 +1,4 @@
-# Getting Started with Industrial Edge
+# Getting Started with Industrial Edge - Setup the Environment
 
 ###### Components:
 
