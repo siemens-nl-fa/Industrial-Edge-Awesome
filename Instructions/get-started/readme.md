@@ -7,14 +7,20 @@ First Steps for setting up.
 ###### Components:
 
 1. IEH - Industrial Edge HUB
-   Siemens Hosted Cloud environment for downloading bought apps.
-2. IEM - Industrial Edge Management
-   Worldwide or plantbased setup to manage all the IED (Industrial Edge Devices)
-3. IED - Industrial Edge Device
-   Device where the Apps are
-4. IEAP - Industrial Edge App Publisher
-   Software where your own made apps can be uploaded to the IEM.
 
+Siemens Hosted Cloud environment for downloading bought apps.
+
+2. IEM - Industrial Edge Management
+
+Worldwide or plantbased setup to manage all the IED (Industrial Edge Devices)
+
+3. IED - Industrial Edge Device
+
+Device where the Apps are
+
+4. IEAP - Industrial Edge App Publisher
+
+Software where your own made apps can be uploaded to the IEM.
 
 # Contents
 
@@ -23,9 +29,7 @@ First Steps for setting up.
    * Management
    * IEVD
 
-
 # 1. Software and Hardware
-
 
 ### Software
 
@@ -46,7 +50,6 @@ Next to that you need an edge device which can be one the following:
    This is Virtual edge devices supported for VMWARE Esxi server. can also run on vmware workstation or Oracle Virtualbox, but is not supported
 3. [Other Devices](https://www.dex.siemens.com/edge/manufacturing-process-industries)
    Checkbox on the left side "devices". These are IPC 123, IPC 427, IPC 847, Unified Comfort panel
-
 
 # 2. Setting up the environment
 
