@@ -1,5 +1,3 @@
-Certainly! Here's a beautified version of the text:
-
 # Getting Started with Industrial Edge - Setup the Environment
 
 ![Industrial Edge](assets/20230605_155403_image.png)
@@ -55,9 +53,7 @@ Here we set up the Virtualization software for the IEM and the IEVD (Industrial 
 
 ## IEVD - Industrial Edge Virtual Device
 
-- Based on: [support.industry.s
-
-iemens.com Industrial Edge Virtual Device](https://support.industry.siemens.com/cs/document/109809569/industrial-edge-virtual-device?dti=0&lc=en-US)
+- Based on: [support.industry.siemens.com Industrial Edge Virtual Device](https://support.industry.siemens.com/cs/document/109809569/industrial-edge-virtual-device?dti=0&lc=en-US)
 - Processor: Minimum 1 virtual CPU core
 - Memory: Minimum 4 GB RAM
 - Disk size: Minimum 15 GB virtual disk
