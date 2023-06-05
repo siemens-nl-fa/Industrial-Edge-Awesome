@@ -14,14 +14,14 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
   * [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Official Siemens Industrial Edge 
   * [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Siemens Italy Industrial Edge 
 
-## Manuals
-Manuals for all the components
-
-## Support
+### Support/SIOS
 * [Overview - Edge Apps](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26131&lc=en-US)
 * [Overview - Edge Devices](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26135&lc=en-US)
 * [Overview - Edge Management](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26128&lc=en-US)
 
+
+## Manuals
+Manuals for all the components
 
 ### Guides
 * [App Developer Guide](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
