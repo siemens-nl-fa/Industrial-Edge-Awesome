@@ -2,7 +2,7 @@
 
 First Steps for setting up.
 
-![](assets/20230605_144809_image.png | width=100)
+![](assets/20230605_144809_image.png)
 
 ###### Components:
 
