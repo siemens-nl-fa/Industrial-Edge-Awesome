@@ -3,6 +3,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 
 
 ## Links
+Redirection to different websites
 
 ### Official
 * [Siemens - Simatic Industrial Edge](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html) - Homepage
