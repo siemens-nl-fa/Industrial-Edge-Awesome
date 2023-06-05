@@ -13,19 +13,24 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 
 ## Links
 
-### Official Links
+### Official
 * [Siemens - Simatic Industrial Edge](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge.html) - Homepage
 * [Siemens - Siemens Industry Support](https://support.industry.siemens.com/cs/search?t=all&search=industrial%20edge&type=ProductSupport%2CCatalog%2CCertificate%2CDownload%2CFaq%2CManual%2CCharacteristic%2CProductNote%2CDownloadSoftwareArchive%2CExampleOfUse%2CSlk&lc=nl-NL) - Industrial Edge Support (Manuals and Downloads)
 * [Dex - Siemens - Apps Marketplace](https://www.dex.siemens.com/?selected=edge) - Industrial Edge Marketplace
 * [Industrial edge documentation](https://docs.eu1.edge.siemens.cloud/) - official documentation website
 
-### Links
-* Github
+### GITHUB
   * [Github - Simatic Industrial Edge](https://github.com/industrial-edge) - Official Siemens Industrial Edge 
   * [Github - Simatic Industrial Edge Italy](https://github.com/SiemensIndustrialEdgeITA) - Siemens Italy Industrial Edge 
 
 ## Manuals
 Manuals for all the components
+
+## Support
+* [Support - Edge Apps](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26131&lc=en-US)
+* [Support - Edge Devices](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26135&lc=en-US)
+* [Support - Edge Management](https://support.industry.siemens.com/cs/products?mfn=ps&pnid=26128&lc=en-US)
+
 
 ### Manuals Guides
 * [App Developer Guide](https://support.industry.siemens.com/cs/document/109795865/industrial-edge-app-developer-guide-v1-2-1)
