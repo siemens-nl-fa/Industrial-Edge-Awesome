@@ -13,12 +13,7 @@
 
 1. Get Software and Hardware
 2. Setting up the Environment
-   - Management
-   - IEVD
 3. Start-up
-   1. IEH
-   2. IEM
-   3. IED
 
 # 1. Software and Hardware
 
