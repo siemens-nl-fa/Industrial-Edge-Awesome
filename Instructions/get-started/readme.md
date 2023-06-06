@@ -22,7 +22,7 @@
 To get started, there are two things you need to buy:
 
 1. [IEH Access](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access): Siemens will create a Hub domain for you, and from there on, you can set up your management.
-2. [IEM Device License](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
+2. [IEM Device License](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license) This license will be needed for the setting up the IEM
 
 ## Hardware
 
