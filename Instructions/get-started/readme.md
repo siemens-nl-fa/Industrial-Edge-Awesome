@@ -72,3 +72,9 @@ Based on: [https://docs.eu1.edge.siemens.cloud Industrial Edge Hub](https://docs
 ## IED
 
 - Follow Chapter 5 [support.industry.siemens.com Industrial Edge Management Get Started](https://support.industry.siemens.com/cs/document/109814452/industrial-edge-management-getting-started-10-22?dti=0&lc=en-US)
+
+## IEVD
+
+- Buy the [Industrial Edge Virtual Device](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-virtual-device?cartId=584ee2f4-7d4a-475b-96ac-cfaa21ba2604&cclcl=nl_NL) and it will be downloadable in the IEH. Run the .ova file on your Virtualisation software [Link Manual](https://support.industry.siemens.com/cs/document/109809569/industrial-edge-virtual-device?dti=0&lc=en-US)
+
+
