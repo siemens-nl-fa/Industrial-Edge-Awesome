@@ -17,6 +17,13 @@
 
 # 1. Software and Hardware
 
+###### (Easy) To-buy links for getting started
+```
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
+https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device
+```
+
 ## Software
 
 To get started, there are two things you need to buy:
