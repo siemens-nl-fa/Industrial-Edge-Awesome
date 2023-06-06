@@ -28,7 +28,7 @@ Redirection to different websites
 * [Industrial Edge Device License](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
 * [ipc227e](https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device)
 
-
+###### To-buy links for getting started
 ```
 https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
 https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
