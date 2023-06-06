@@ -53,7 +53,7 @@ Here we set up the Virtualization software for the IEM and the IEVD (Industrial 
 - Memory: Allocate a minimum of 16 GB of memory to the VM.
 - Processor: Choose a minimum of 2-4 processor cores for the VM.
 
-## IEVD - Industrial Edge Virtual Device
+## IEVD - Industrial Edge Virtual Device (Optional)
 
 - Based on: [support.industry.siemens.com Industrial Edge Virtual Device](https://support.industry.siemens.com/cs/document/109809569/industrial-edge-virtual-device?dti=0&lc=en-US)
 - Processor: Minimum 1 virtual CPU core
