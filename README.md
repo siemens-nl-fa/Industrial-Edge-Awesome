@@ -3,7 +3,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 
 ## Instructions
 Instruction for some cases
-* [Get Started - setting up the environment](./Instructions/get-started/)
+* [Get Started - Setting up the environment](./Instructions/get-started/)
 
 ## Links
 Redirection to different websites
