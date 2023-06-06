@@ -17,7 +17,7 @@
 
 # 1. Software and Hardware
 
-###### (Easy) To-buy links for getting started
+###### To-buy links for getting started
 ```
 https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
 https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
