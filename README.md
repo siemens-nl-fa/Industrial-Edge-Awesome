@@ -1,6 +1,14 @@
 # Awesome Industrial Edge ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 A collection of awesome Industrial Edge Information, resources and shiny things.
 
+###### To-buy links for getting started
+```
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
+https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
+https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device
+```
+
+
 ## Instructions
 Instruction for some cases
 * [Get Started - Setting up the environment](./Instructions/get-started/)
@@ -33,13 +41,6 @@ Redirection to different websites
 * [Industrial Edge Hub Access](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access)
 * [Industrial Edge Device License](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
 * [ipc227e](https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device)
-
-###### To-buy links for getting started
-```
-https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
-https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
-https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device
-```
 
 
 ## Manuals
