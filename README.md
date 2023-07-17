@@ -4,6 +4,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 ## Instructions
 Instruction for some cases
 * [Get Started - Setting up the environment](./Instructions/get-started/)
+* [Get Started - IECTL - automaticly update all apps in the management](./Instructions/iectl/)
 
 ## Links
 Redirection to different websites
