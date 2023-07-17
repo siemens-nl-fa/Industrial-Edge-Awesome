@@ -1,0 +1,43 @@
+version: "2.4"
+services: 
+
+  influxdb:
+    container_name: influxdb
+    build: .  
+    image: influxdb:1.7.11-alpine
+    networks:      
+      - proxy-redirect
+    ports:
+      - "8086:8086"
+    expose:
+        - "8086"    
+    restart: on-failure
+    environment:
+      - INFLUXDB_DB=influx
+      - INFLUXDB_USER=root
+      - INFLUX_PASSWORD=root      
+    mem_limit: 200m
+    
+  
+  chronograf:
+    container_name: chronograf
+    image: chronograf:alpine
+    ports:
+      - "8888:8888"
+    expose:
+      - "8888"
+    depends_on:
+      - influxdb
+    environment:
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_USERNAME=root
+      - INFLUXDB_PASSWORD=root 
+    networks:
+      - proxy-redirect     
+    mem_limit: 200m
+    
+    
+networks: 
+  proxy-redirect:
+      name: proxy-redirect
+

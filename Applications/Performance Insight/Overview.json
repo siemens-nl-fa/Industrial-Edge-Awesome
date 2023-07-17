@@ -1,0 +1,285 @@
+{
+  "version": 2,
+  "app": "PerformanceInsight",
+  "exportType": "dashboard",
+  "creationDate": "2023-05-22T19:58:26.447Z",
+  "dateSettings": {
+    "queryTypeId": "last_3_hours",
+    "dateRange": {
+      "from": null,
+      "to": null
+    },
+    "useCurrentDate": true,
+    "offset": 0
+  },
+  "dimension": {
+    "width": 50,
+    "height": 25
+  },
+  "title": "Overview",
+  "queryTypes": [],
+  "statusMappings": [
+    {
+      "id": "8f419390-f8d7-11ed-8988-5d7f4c535231",
+      "name": "TankApplication",
+      "description": null,
+      "statusConfiguration": [
+        {
+          "color": "#006FE6",
+          "value": 1,
+          "label": "filling tank",
+          "description": null,
+          "timeCategoryId": 4
+        },
+        {
+          "color": "#A562E7",
+          "value": 2,
+          "label": "heating tank",
+          "description": null,
+          "timeCategoryId": 4
+        },
+        {
+          "color": "#FFC800",
+          "value": 3,
+          "label": "filling bottle",
+          "description": null,
+          "timeCategoryId": 4
+        },
+        {
+          "color": "#65C728",
+          "value": 4,
+          "label": "shifting bottle",
+          "description": null,
+          "timeCategoryId": 4
+        },
+        {
+          "color": "#EB780A",
+          "value": 5,
+          "label": "stop",
+          "description": null,
+          "timeCategoryId": 3
+        },
+        {
+          "color": "#ABB0C3",
+          "value": 6,
+          "label": "reset",
+          "description": null,
+          "timeCategoryId": 3
+        },
+        {
+          "color": "#F62447",
+          "value": 7,
+          "label": "error",
+          "description": null,
+          "timeCategoryId": 5
+        }
+      ],
+      "useTimeCategories": true
+    }
+  ],
+  "widgets": [
+    {
+      "title": "Machine State",
+      "type": "performance-insight-gantt",
+      "dimension": {
+        "width": 50,
+        "height": 15
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": null,
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "1",
+            "aggregation": "Gantt",
+            "name": "GDB.operate.machineState",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "States",
+            "unit": "",
+            "dataType": "Int16",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "minute",
+        "value": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "views": [
+        {
+          "type": "gantt",
+          "series": {
+            "dataSourceSettingsId": "0",
+            "statusMappingId": "8f419390-f8d7-11ed-8988-5d7f4c535231"
+          }
+        }
+      ],
+      "useDashboardDateSettings": true
+    },
+    {
+      "title": "Produced This Time Period",
+      "type": "performance-insight-value",
+      "dimension": {
+        "width": 25,
+        "height": 10
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": null,
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "2",
+            "aggregation": "Counter",
+            "name": "GDB.process.numberProduced",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Process",
+            "unit": "",
+            "dataType": "UInt32",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "hour",
+        "value": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "value",
+          "showStatistics": false,
+          "sortBy": "dataSourcesOrder"
+        }
+      ],
+      "useDashboardDateSettings": true
+    },
+    {
+      "title": "Faulty This Time Period",
+      "type": "performance-insight-value",
+      "dimension": {
+        "width": 25,
+        "height": 10
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": null,
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "3",
+            "aggregation": "Counter",
+            "name": "GDB.process.numberFaulty",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Process",
+            "unit": "",
+            "dataType": "UInt32",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "hour",
+        "value": 1
+      },
+      "position": {
+        "x": 25,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "value",
+          "showStatistics": false,
+          "sortBy": "dataSourcesOrder"
+        }
+      ],
+      "useDashboardDateSettings": true
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "version": 2,
+  "app": "PerformanceInsight",
+  "exportType": "dashboard",
+  "creationDate": "2023-05-22T19:56:18.704Z",
+  "dateSettings": {
+    "queryTypeId": "last_3_hours",
+    "dateRange": {
+      "from": null,
+      "to": null
+    },
+    "useCurrentDate": true,
+    "offset": 0
+  },
+  "dimension": {
+    "width": 50,
+    "height": 25
+  },
+  "title": "Tank",
+  "queryTypes": [],
+  "statusMappings": [],
+  "widgets": [
+    {
+      "title": "Water Level",
+      "type": "performance-insight-gauge",
+      "dimension": {
+        "width": 17,
+        "height": 9
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#50BED7",
+          "decimalPlaces": 2,
+          "label": null,
+          "limits": {
+            "warning": {
+              "high": 1500,
+              "low": null
+            },
+            "alert": {
+              "high": 1550,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "1",
+            "aggregation": "Last",
+            "name": "GDB.signals.tankSignals.actLevel",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "TankSignals",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "minute",
+        "value": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "gauge",
+          "range": {
+            "low": 0,
+            "high": 1600
+          }
+        }
+      ],
+      "useDashboardDateSettings": true
+    },
+    {
+      "title": "Pressure",
+      "type": "performance-insight-gauge",
+      "dimension": {
+        "width": 16,
+        "height": 9
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": "Pressure",
+          "limits": {
+            "warning": {
+              "high": 16,
+              "low": null
+            },
+            "alert": {
+              "high": 18,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "2",
+            "aggregation": "Last",
+            "name": "GDB.signals.tankSignals.actPressure",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "TankSignals",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "minute",
+        "value": 1
+      },
+      "position": {
+        "x": 17,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "gauge",
+          "range": {
+            "low": 0,
+            "high": 20
+          }
+        }
+      ],
+      "useDashboardDateSettings": true
+    },
+    {
+      "title": "Temperature",
+      "type": "performance-insight-gauge",
+      "dimension": {
+        "width": 17,
+        "height": 9
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": "Temperature",
+          "limits": {
+            "warning": {
+              "high": 70,
+              "low": null
+            },
+            "alert": {
+              "high": 75,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "3",
+            "aggregation": "Last",
+            "name": "GDB.signals.tankSignals.actTemperature",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "TankSignals",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "minute",
+        "value": 1
+      },
+      "position": {
+        "x": 33,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "gauge",
+          "range": {
+            "low": 0,
+            "high": 100
+          }
+        }
+      ],
+      "useDashboardDateSettings": true
+    }
+  ]
+}

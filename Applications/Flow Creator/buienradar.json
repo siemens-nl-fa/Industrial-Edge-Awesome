@@ -1,0 +1,390 @@
+[
+    {
+        "id": "b032af6fd2104aac",
+        "type": "tab",
+        "label": "Buienradar data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e07044236a18a8da",
+        "type": "http request",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.buienradar.nl/2.0/feed/json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "bdac3f766c2c8cfa"
+            ]
+        ]
+    },
+    {
+        "id": "5d62914bffa852e0",
+        "type": "inject",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "e07044236a18a8da"
+            ]
+        ]
+    },
+    {
+        "id": "f39d04888fb69338",
+        "type": "debug",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bdac3f766c2c8cfa",
+        "type": "json",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 390,
+        "y": 140,
+        "wires": [
+            [
+                "ee375970a7571005",
+                "654a2ec093bf66a0"
+            ]
+        ]
+    },
+    {
+        "id": "ee375970a7571005",
+        "type": "function",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "func": "msg.payload = msg.payload.actual.stationmeasurements.find(item=> item.$id == '38')\nglobal.set('start_nr',1000)\n\nvar i = 0;\nvar start_nr = global.get('start_nr');\nvar message =  {\n    \"seq\": 1,\n    \"hashVersion\": 3635902760,\n    \"connections\": [{\n        \"name\": \"WeatherData\",\n        \"type\": \"API\",\n        \"dataPoints\": [{\n            \"name\": \"default\",\n            \"topic\": \"ie/d/j/simatic/v1/iefc/dp/r/WeatherData/default\",\n            \"publishType\": \"bulk\",\n            \"dataPointDefinitions\": []\n        }]\n    }]\n};\n\n\nfor (const property in msg.payload) {\n  var newMapObject =  { \"name\": \"\", \"id\": \"\", \"dataType\": \"Real\", \"accessMode\": \"r\", \"acquisitionCycleInMs\": 1000, \"acquisitionMode\": \"CyclicOnChange\" };\n  \n  if(i > 10){\n      newMapObject.name = property;\n      newMapObject.id = (start_nr + i).toString();\n      message.connections[0].dataPoints[0].dataPointDefinitions.push(newMapObject);\n  }\n  \n  i++;\n}\nmsg.payload = message;\nmsg.payload = msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "7f2ba5467565dcd1",
+                "f39d04888fb69338"
+            ]
+        ]
+    },
+    {
+        "id": "7f2ba5467565dcd1",
+        "type": "mqtt out",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "topic": "ie/m/j/simatic/v1/iefcc1/dp",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "def8073c42242c6f",
+        "x": 830,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "80f76b90adc16cb6",
+        "type": "function",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "func": "msg.payload = msg.payload.actual.stationmeasurements.find(item=> item.$id == '38');\n\nmsg.sequence = global.get('sequence');\nif(msg.sequence == undefined ){ global.set('sequence',0); msg.sequence = 0; };\n\nvar i = 0;\nvar start_nr = global.get('start_nr');\nvar message = {\n    \"seq\":msg.sequence,\n    \"vals\":[ ]\n}\n\nfor (const property in msg.payload) {\n  let now = new Date; \n  now = now.toISOString();\n  \n  var newMapObject =  {id: 0,qc: 3, ts: now, val: 0};\n  \n  if(i > 10){\n      newMapObject.id = (start_nr + i).toString();\n      newMapObject.val = msg.payload[property].toString();\n      message.vals.push(newMapObject);\n  }\n  i++;\n}\n\nglobal.set('sequence',msg.sequence + 1);\n\nmsg.payload = message;\nmsg.payload = msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 580,
+        "wires": [
+            [
+                "4c13e090a25ae52f",
+                "694917ace9097a7b"
+            ]
+        ]
+    },
+    {
+        "id": "4c13e090a25ae52f",
+        "type": "mqtt out",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "topic": "ie/d/j/simatic/v1/iefcc1/dp/r/WeatherData/default",
+        "qos": "2",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "def8073c42242c6f",
+        "x": 900,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "694917ace9097a7b",
+        "type": "debug",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "b538c80cae9fb54f",
+        "type": "delay",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "e5d37a0dac8b2b9a"
+            ]
+        ]
+    },
+    {
+        "id": "654a2ec093bf66a0",
+        "type": "function",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "func": "let now = new Date; \nnow = now.toISOString();\n\nmsg.payload = {\n    \"seq\":1,\n    \"ts\": now,\n    \"connector\":{\"status\":\"good\"},\"connections\":[{\"name\":\"PLC\",\"status\":\"good\"}]}; \n\nmsg.payload = msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 140,
+        "wires": [
+            [
+                "744f1c2b7a29c169",
+                "0ce8df07e2286a00"
+            ]
+        ]
+    },
+    {
+        "id": "744f1c2b7a29c169",
+        "type": "mqtt out",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "topic": "ie/s/j/simatic/v1/iefcc1/status",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "def8073c42242c6f",
+        "x": 840,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0ce8df07e2286a00",
+        "type": "debug",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "be68c496327f98fa",
+        "type": "comment",
+        "z": "b032af6fd2104aac",
+        "name": "Status",
+        "info": "",
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "621e3bee6d0c070a",
+        "type": "comment",
+        "z": "b032af6fd2104aac",
+        "name": "Datapoints",
+        "info": "",
+        "x": 760,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d0fd4c25eb0ada5d",
+        "type": "comment",
+        "z": "b032af6fd2104aac",
+        "name": "Data",
+        "info": "",
+        "x": 750,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "a96243041e923259",
+        "type": "inject",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "b538c80cae9fb54f"
+            ]
+        ]
+    },
+    {
+        "id": "e5d37a0dac8b2b9a",
+        "type": "http request",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.buienradar.nl/2.0/feed/json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 230,
+        "y": 580,
+        "wires": [
+            [
+                "b5cabb15548eef3f"
+            ]
+        ]
+    },
+    {
+        "id": "b5cabb15548eef3f",
+        "type": "json",
+        "z": "b032af6fd2104aac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 580,
+        "wires": [
+            [
+                "80f76b90adc16cb6"
+            ]
+        ]
+    },
+    {
+        "id": "def8073c42242c6f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "ie-databus",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

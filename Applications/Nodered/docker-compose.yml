@@ -1,0 +1,39 @@
+version: "2.4"
+services:  
+
+  nodered:
+    container_name: nodered
+    build: ./nodered  
+    image: nodered         
+    ports:
+      - "1880:1880"
+    expose:
+      - "1880"
+    volumes:
+      - nodered-volume:/data 
+    networks:
+      - proxy-redirect
+    restart: on-failure
+    mem_limit: 500m  
+  
+volumes:
+  nodered-volume:
+
+networks:
+  proxy-redirect:
+    external: true
+    name: proxy-redirect
+
+
+  
+  
+  
+  
+
+  
+  
+
+
+        
+
+

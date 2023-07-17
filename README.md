@@ -6,6 +6,11 @@ Instruction for some cases
 * [Get Started - Setting up the environment](./Instructions/get-started/)
 * [Get Started - IECTL - automaticly update all apps in the management](./Instructions/iectl/)
 
+## Application examples
+Application examples and some  data to be using for applications
+* [Example Applications](./Applications/readme.md)
+* [Example Application Data](./Applications/readme.md)
+
 ## Links
 Redirection to different websites
 

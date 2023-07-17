@@ -1,0 +1,402 @@
+{
+  "version": 2,
+  "app": "PerformanceInsight",
+  "exportType": "dashboard",
+  "creationDate": "2023-05-22T19:58:45.327Z",
+  "dateSettings": {
+    "queryTypeId": "last_3_hours",
+    "dateRange": {
+      "from": null,
+      "to": null
+    },
+    "useCurrentDate": true,
+    "offset": 0
+  },
+  "dimension": {
+    "width": 50,
+    "height": 25
+  },
+  "title": "Energy",
+  "queryTypes": [],
+  "statusMappings": [],
+  "widgets": [
+    {
+      "title": "Last values",
+      "type": "performance-insight-value",
+      "dimension": {
+        "width": 50,
+        "height": 10
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": "Filling Bottles",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "1",
+            "aggregation": "Last",
+            "name": "GDB.signals.energySignals.energyConsumptionFillingBottles",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "1",
+          "color": "#FFB900",
+          "decimalPlaces": 2,
+          "label": "Filling Tank",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "2",
+            "aggregation": "Last",
+            "name": "GDB.signals.energySignals.energyConsumptionFillingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "2",
+          "color": "#AAB414",
+          "decimalPlaces": 2,
+          "label": "Heating Tank",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "3",
+            "aggregation": "Last",
+            "name": "GDB.signals.energySignals.energyConsumptionHeatingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "3",
+          "color": "#8068E7",
+          "decimalPlaces": 2,
+          "label": "Water Filling Tank",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "4",
+            "aggregation": "Last",
+            "name": "GDB.signals.energySignals.waterConsumptionFillingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "minute",
+        "value": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "views": [
+        {
+          "type": "value",
+          "showStatistics": true,
+          "sortBy": "dataSourcesOrder"
+        }
+      ],
+      "useDashboardDateSettings": true
+    },
+    {
+      "title": "Energy",
+      "type": "performance-insight-chart",
+      "dimension": {
+        "width": 50,
+        "height": 15
+      },
+      "dataSourcesSettings": [
+        {
+          "id": "0",
+          "color": "#00646E",
+          "decimalPlaces": 2,
+          "label": "Water Filling Bottles",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "4",
+            "aggregation": "None",
+            "name": "GDB.signals.energySignals.waterConsumptionFillingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "1",
+          "color": "#FFB900",
+          "decimalPlaces": 2,
+          "label": "Heating Tank",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "3",
+            "aggregation": "None",
+            "name": "GDB.signals.energySignals.energyConsumptionHeatingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "2",
+          "color": "#AAB414",
+          "decimalPlaces": 2,
+          "label": "Filling Bottles",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "1",
+            "aggregation": "None",
+            "name": "GDB.signals.energySignals.energyConsumptionFillingBottles",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        },
+        {
+          "id": "3",
+          "color": "#8068E7",
+          "decimalPlaces": 2,
+          "label": "Filling Tank",
+          "limits": {
+            "warning": {
+              "high": null,
+              "low": null
+            },
+            "alert": {
+              "high": null,
+              "low": null
+            }
+          },
+          "dataSource": {
+            "type": "Variable",
+            "id": "2",
+            "aggregation": "None",
+            "name": "GDB.signals.energySignals.energyConsumptionFillingTank",
+            "assetId": "d83210fd012e46e2accb716891eef40f",
+            "path": [
+              "edge",
+              "Tank Application"
+            ],
+            "aspectName": "Energy",
+            "unit": "",
+            "dataType": "Float",
+            "defaultAggregation": "Average",
+            "acquisitionCategory": "ProcessValue"
+          }
+        }
+      ],
+      "dateSettings": {
+        "queryTypeId": "day",
+        "dateRange": {
+          "from": null,
+          "to": null
+        },
+        "useCurrentDate": true,
+        "offset": 0
+      },
+      "kpiCalculationTimeRange": {
+        "timeRange": "hour",
+        "value": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "views": [
+        {
+          "type": "linechart",
+          "xAxis": [
+            {
+              "title": "",
+              "type": "datetime",
+              "min": null,
+              "max": null
+            }
+          ],
+          "yAxis": [
+            {
+              "title": "",
+              "type": "linear",
+              "min": null,
+              "max": null
+            }
+          ],
+          "series": [
+            {
+              "dataSourceSettingsId": "0",
+              "type": "bar",
+              "xAxis": 0,
+              "yAxis": 0,
+              "stacked": false,
+              "visible": true,
+              "step": false
+            },
+            {
+              "dataSourceSettingsId": "1",
+              "type": "bar",
+              "xAxis": 0,
+              "yAxis": 0,
+              "stacked": false,
+              "visible": true,
+              "step": false
+            },
+            {
+              "dataSourceSettingsId": "2",
+              "type": "bar",
+              "xAxis": 0,
+              "yAxis": 0,
+              "stacked": false,
+              "visible": true,
+              "step": false
+            },
+            {
+              "dataSourceSettingsId": "3",
+              "type": "bar",
+              "xAxis": 0,
+              "yAxis": 0,
+              "stacked": false,
+              "visible": true,
+              "step": false
+            }
+          ]
+        }
+      ],
+      "useDashboardDateSettings": true
+    }
+  ]
+}

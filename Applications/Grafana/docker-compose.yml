@@ -1,0 +1,21 @@
+version: "2.4"
+services: 
+
+  grafana:
+    build: 
+      context: .   
+    container_name: grafana
+    image: grafana/grafana
+    ports:
+      - 3000:3000
+    expose:
+    - "3000"
+    networks:
+      - proxy-redirect    
+    mem_limit: 200m   
+
+networks:
+  proxy-redirect:
+      name: proxy-redirect
+ 
+  
