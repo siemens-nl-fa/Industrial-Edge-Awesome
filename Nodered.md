@@ -2,7 +2,7 @@
 The following  examples you can use for testing around.
 
 ## Application Install
-1. * [download files](./Nodered)
+1. * [Download folder](../)
 
 ## Buienradar Flows
 Getting Weatherdata of station Voorschoten in the Netherlands by HTTP Request
