@@ -4,7 +4,7 @@ The following  examples you can use for testing around.
 
 ## Installation
 1. * [Download or git clone folder](./)
-2. * [Follow steps](./Nodered/)
+2. * [Follow steps](./Nodered-App/)
 
 
 ## Flows - Buienradar
