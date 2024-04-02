@@ -1,11 +1,11 @@
 # Flow Creator / Node-Red
 The following  examples you can use for testing around.
 
-## Application Install
+## Installation
 1. * [Download or git clone folder](./)
 2. * [Follow steps](./Nodered/)
 
-## Buienradar Flows
+## Flows - Buienradar
 Getting Weatherdata of station Voorschoten in the Netherlands by HTTP Request
 
 ![IIH](./Images/buienradar.PNG)
