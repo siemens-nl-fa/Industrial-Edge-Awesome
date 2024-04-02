@@ -18,7 +18,8 @@ Tools
 
 ## Documentation
  
-- You can find further documentation and help in the following links
+You can find further documentation and help in the following links
+
   - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
   - [Industrial Edge Forum](https://forum.mendix.com/link/space/industrial-edge)
   - [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
