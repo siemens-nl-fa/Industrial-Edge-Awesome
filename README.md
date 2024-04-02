@@ -2,6 +2,9 @@
 A collection of awesome Industrial Edge Information, resources and shiny things.
 
 
+# Code
+
+* [Flow Creator / Node-RED](./Nodered.md)
 
 # URLs
 
