@@ -1,0 +1,38 @@
+version: "2.4"
+services:  
+
+  nodered:    
+    build: .  
+    image: nodered/node-red:latest-minimal         
+    ports:
+      - "1880:1880"
+    expose:
+      - "1880"
+    volumes:
+      - nodered-volume:/data 
+    networks:
+      - proxy-redirect
+    restart: on-failure
+    mem_limit: 200m  
+  
+volumes:
+  nodered-volume:
+
+networks:
+  proxy-redirect:
+    external: true
+    name: proxy-redirect
+
+
+  
+  
+  
+  
+
+  
+  
+
+
+        
+
+

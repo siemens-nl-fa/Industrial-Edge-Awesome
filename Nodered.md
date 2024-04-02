@@ -1,7 +1,10 @@
-# Flow Creator / Node-Red Code
-The following code examples you can use for testing around.
+# Flow Creator / Node-Red
+The following  examples you can use for testing around.
 
-## Buienradar   
+## Application Install
+ - (download files)[./Nodered]
+
+## Buienradar Flows
 Getting Weatherdata of station Voorschoten in the Netherlands by HTTP Request
 
 ![IIH](./Images/buienradar.PNG)
