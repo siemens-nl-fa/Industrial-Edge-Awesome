@@ -10,7 +10,7 @@ The following  examples you can use for testing around.
 ## Flows - Buienradar
 Getting Weatherdata of station Voorschoten in the Netherlands by HTTP Request
 
-![Buienradar](./Images/buienradar.PNG)
+![Buienradar](./Images/readwrite.PNG)
 
 ###### Code
 ```
