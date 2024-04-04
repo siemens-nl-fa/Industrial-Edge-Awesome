@@ -1,0 +1,28 @@
+version: "2.4"
+services:
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    #ports: # No ports needed because port 3306 is exposed in the Dockerfile.
+     # - 3306 # you would expose this port only if you need access outside of this application
+    volumes:
+      - ./appdata/mysql:/var/lib/mysql
+    mem_limit: 200mb
+    networks:
+      - proxy-redirect
+  
+  adminer:
+    image: adminer:4.7
+    restart: always
+    ports:
+      - 30456:8080 # Admminer is accesible on port 30456
+    mem_limit: 100mb
+    networks:
+      - proxy-redirect
+
+networks:
+  proxy-redirect:
+    external: true
+    name: proxy-redirect

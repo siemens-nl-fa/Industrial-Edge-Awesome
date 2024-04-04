@@ -5,6 +5,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 # Applications
 
 * [Flow Creator / Node-RED](./Nodered.md)
+* [MySQL](./MySQL-App/)
 
 # URLs
 
