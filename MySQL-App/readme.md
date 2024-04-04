@@ -1,4 +1,4 @@
-# Installation of Node-RED (Minified)
+# Installation of MySQL App
 This is for testing only and not production-ready.
 
 ## Requirements
