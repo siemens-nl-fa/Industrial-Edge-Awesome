@@ -3,7 +3,7 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 
 
 # Applications
-
+Applications and/or code samples
 * [Flow Creator / Node-RED](./Nodered.md)
 * [MySQL](./MySQL-App/)
 * [FakePlc Connector](https://github.com/siemens-nl-fa/Industrial-Edge-FakePLC-Connector)
