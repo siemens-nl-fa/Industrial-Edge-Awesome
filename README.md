@@ -4,11 +4,14 @@ A collection of awesome Industrial Edge Information, resources and shiny things.
 
 # Applications
 Applications and/or code samples
-* [Flow Creator / Node-RED](./Nodered.md)
+* [Flow Creator / Node-RED](./NODERED.md)
 * [MySQL](./MySQL-App/)
 * [FakePlc Connector](https://github.com/siemens-nl-fa/Industrial-Edge-FakePLC-Connector)
 * [InfluxDB](./InfluxDB-App/)
 * [Grafana](./Grafana-App/)
+
+# Topics
+*[Get started](./GET-STARTED.md)
 
 # URLs
 
