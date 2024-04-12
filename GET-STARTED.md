@@ -1,6 +1,6 @@
 # Getting Started with Industrial Edge - Setup the Environment
 
-![Industrial Edge](Images/components.png.png)
+* [Industrial Edge](Images/components.png)
 
 ## Components:
 
