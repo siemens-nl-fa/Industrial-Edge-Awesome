@@ -19,9 +19,9 @@
 
 ###### To-buy links for getting started
 ```
-https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access
-https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license
-https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device
+[Industrial-edge-access](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access)
+[Industrial-edge-device-license](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
+[Select-hardware](https://www.dex.siemens.com/edge/build-your-solution)
 ```
 
 ## Software
@@ -35,9 +35,9 @@ To get started, there are two things you need to buy:
 
 Next, you'll need an edge device, which can be one of the following:
 
-1. [Industrial Edge Device IPC 227e](https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227e-industrial-edge-device): This is the default edge device acceptable for most use-cases.
+1. [Industrial Edge Device IPC 227g](https://www.dex.siemens.com/edge/manufacturing-process-industries/simatic-ipc227g-industrial-edge-device): This is the default edge device acceptable for most use-cases.
 2. [Industrial Edge Virtual Device](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-virtual-device?cartId=584ee2f4-7d4a-475b-96ac-cfaa21ba2604&cclcl=nl_NL): This is a Virtual edge device supported for VMWARE ESXi server. It can also run on VMWare Workstation or Oracle Virtualbox, but it is not supported.
-3. [Other Devices](https://www.dex.siemens.com/edge/manufacturing-process-industries): Checkbox on the left side "devices". These are IPC 123, IPC 427, IPC 847, Unified Comfort panel.
+3. [Other Devices](https://www.dex.siemens.com/edge/manufacturing-process-industries): Checkbox on the left side "devices". These are IPC 127, IPC 427, IPC 847, Unified Comfort panel.
 
 # 2. Setting up the Environment
 
