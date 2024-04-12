@@ -11,7 +11,7 @@ Applications and/or code samples
 * [Grafana](./Grafana-App/)
 
 # Topics
-*[Get started](./GET-STARTED.md)
+* [Get started](./GET-STARTED.md)
 
 # URLs
 
