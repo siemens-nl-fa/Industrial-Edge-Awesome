@@ -12,6 +12,7 @@ Applications and/or code samples
 
 # Topics
 * [Get started](./GET-STARTED.md)
+* [IECTL command line tool](./IECTL.md)
 
 # URLs
 
