@@ -18,11 +18,11 @@
 # 1. Software and Hardware
 
 ###### To-buy links for getting started
-```
+
 [Industrial-edge-access](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-access)
 [Industrial-edge-device-license](https://www.dex.siemens.com/edge/manufacturing-process-industries/industrial-edge-device-license)
 [Select-hardware](https://www.dex.siemens.com/edge/build-your-solution)
-```
+
 
 ## Software
 
