@@ -45,7 +45,7 @@ Here we set up the Virtualization software for the IEM and the IEVD (Industrial 
 
 ## IEM
 
-- Based on: [docs.eu1.edge.siemens.cloud Get Started Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/setup/setting_up_the_iem/setup_steps.html) and [support.industy.siemens.com IEM Operation](https://support.industry.siemens.com/cs/document/109814453/industrial-edge-management-operation-10-22)
+- Based on: [docs.eu1.edge.siemens.cloud Get Started Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/setup/setting_up_the_iem/setup_steps.html) 
 - Virtualization Environment: VMWare Workstation, Oracle Virtualbox, or VMWare ESXi
 - OS-Version: Debian (64-bit)
 - Disk size: Siemens recommends a maximum disk size of 500 GB, with a minimum of 220 GB mandatory.
